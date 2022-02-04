@@ -5,7 +5,7 @@
 @model Nop.Plugin.Sms.Verizon.Models.SmsVerizonModel
 
 <form asp-controller="SmsVerizon" asp-action="Configure" method="post">
-    <div class="card-group">
+    <div class="cards-group">
         <div class="card card-default">
             <div class="card-body">
                 <div class="form-group row">
@@ -32,16 +32,16 @@
                         &nbsp;
                     </div>
                     <div class="col-md-9">
-                        <input type="submit" name="save" class="btn bg-blue" value="@T("Admin.Common.Save")" />
+                        <input type="submit" name="save" class="btn btn-primary" value="@T("Admin.Common.Save")" />
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="card-group">
+    <div class="cards-group">
         <div class="card panel-default">
-            <div class="card-heading">
+            <div class="card-header">
                 @T("Plugins.Sms.Verizon.SendTest.Hint")
             </div>
             <div class="card-body">
